@@ -1,0 +1,17 @@
+.message {
+    margin: 10px 0;
+}
+
+.message.user .message-content {
+    /* Remove background-color, color to inherit from theme */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.message.bot .message-content {
+    /* Remove background-color, color to inherit from theme */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
