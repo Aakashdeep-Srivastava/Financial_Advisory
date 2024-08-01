@@ -1,5 +1,7 @@
 # WealthWizard Financial Advisory System
 
+**Note**: The system is not deployed on Azure due to a severe time crunch caused by placement activities and project submissions at college. We kindly request more time until 7th August to complete the deployment.
+
 ## Scope
 - **Integration of Advanced AI Technologies**: Utilizes NLP and Embedding.
 - **Technology Stack**: FastAPI for backend, React for frontend, and MongoDB and Chroma for data management.
@@ -23,12 +25,16 @@
 6. **Open-Source Toolset**: WealthWizard is built entirely using open-source technologies, ensuring transparency, flexibility, and community-driven improvements.
 7. **Real-time Market Insights**: Uses AI algorithms to provide timely and accurate market trend insights.
 
+## Architecture
+![System Architecture](https://github.com/Aakashdeep-Srivastava/Financial_Advisory/blob/main/Architecture.PNG)
+
 ## Setup Instructions
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/yourusername/wealthwizard.git
    cd wealthwizard
-Backend Setup:
+
+## Backend Setup:
 
 Create a virtual environment and activate it:
 sh
@@ -57,7 +63,8 @@ Start the React development server:
 sh
 Copy code
 npm start
-Database Setup:
+
+## Database Setup:
 
 Ensure MongoDB is installed and running on your local machine or use a cloud service like MongoDB Atlas.
 Configure the database connection in the backend configuration.
