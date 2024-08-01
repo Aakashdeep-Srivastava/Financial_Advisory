@@ -49,7 +49,8 @@ Start the FastAPI server:
 sh
 Copy code
 uvicorn backend.main:app --reload
-Frontend Setup:
+
+## Frontend Setup:
 
 Navigate to the frontend directory:
 sh
