@@ -1,7 +1,4 @@
 # WealthWizard Financial Advisory System
-Its not deployed on Azure as requirement of Bank of Baroda Hackathon due to sever time crunch in placement and submission of final year project.
-
-
 
 ## Scope
 - **Integration of Advanced AI Technologies**: Utilizes NLP and Embedding.
@@ -23,4 +20,48 @@ Its not deployed on Azure as requirement of Bank of Baroda Hackathon due to seve
 3. **User-Friendly Interface**: With a React frontend and FastAPI backend, WealthWizard ensures a seamless, intuitive user experience, making financial advice easily accessible to everyone.
 4. **Comprehensive Financial Guidance**: Unlike other financial chatbots that may focus on specific areas, WealthWizard offers a holistic approach, covering budgeting, savings, investments, and overall financial planning.
 5. **Empowering Financial Literacy**: WealthWizard not only provides advice but also educates users, empowering them to make informed financial decisions. This educational aspect enhances its value, helping users build better financial habits and understanding.
-6. **Open-Source
+6. **Open-Source Toolset**: WealthWizard is built entirely using open-source technologies, ensuring transparency, flexibility, and community-driven improvements.
+7. **Real-time Market Insights**: Uses AI algorithms to provide timely and accurate market trend insights.
+
+## Setup Instructions
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/yourusername/wealthwizard.git
+   cd wealthwizard
+Backend Setup:
+
+Create a virtual environment and activate it:
+sh
+Copy code
+python3 -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+Install backend dependencies:
+sh
+Copy code
+pip install -r backend/requirements.txt
+Start the FastAPI server:
+sh
+Copy code
+uvicorn backend.main:app --reload
+Frontend Setup:
+
+Navigate to the frontend directory:
+sh
+Copy code
+cd frontend
+Install frontend dependencies:
+sh
+Copy code
+npm install
+Start the React development server:
+sh
+Copy code
+npm start
+Database Setup:
+
+Ensure MongoDB is installed and running on your local machine or use a cloud service like MongoDB Atlas.
+Configure the database connection in the backend configuration.
+Run the Application:
+
+Access the application at http://localhost:3000 for the frontend.
+Backend API documentation can be accessed at http://localhost:8000/docs.
